@@ -5,7 +5,7 @@
 int input();
 int createArray(int size);
 int printArray(int arr[], int size);
-int bubbleSort(int arr[], int size); // prototip oluşturuldu, fonksiyon iskelet halde bulunuyor.
+int bubbleSort(int arr[], int size); 
 int randomNumberGenerator();
 
 int number; // input değeri
@@ -24,7 +24,7 @@ int createArray(int size){
     }
     
     printArray(array, size);
-
+    bubbleSort(array, size);
 }
 
 int printArray(int arr[], int size){
@@ -32,18 +32,32 @@ int printArray(int arr[], int size){
     {
         printf("%d - ", arr[i]);
     }
+    printf("\n");
 }
 
 int bubbleSort(int arr[], int size){
+    int temp;
 
+    for (int i = 0; i < size; i++)
+    {
+        for (int j = 0; j < size - i - 1; j++)
+        {
+            if(arr[j+1] < arr[j]){
+                temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
+        }
+    }
+
+    printf("Sıralanmış dizi : \n");
+    printArray(arr, size);
 }
 
 int randomNumberGenerator(){
     int num;
-    return num = rand() % 100 + 1;
+    return num = rand() % 10000 + 1;
 }
-
-
 
 int main(){
     srand(time(NULL)); // aynı anda üretilen sayıların birbirinden farklı olmasını sağlayan metot
