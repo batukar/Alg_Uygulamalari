@@ -8,6 +8,8 @@ int main(){
     int num1 = input();
     int num2 = input();
 
+    x = 5;
+
     printf("Girilen sayi = %d\n", num1);
     printf("Girilen sayi = %d\n", num2);
 }

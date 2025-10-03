@@ -23,9 +23,7 @@ int input(){
 }
 
 int toplam(int x, int y){
-    result = x + y;
-
-    return result;
+    return x + y;
 }
 
 int fark(int a, int b){

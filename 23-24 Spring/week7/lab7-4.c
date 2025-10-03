@@ -10,7 +10,7 @@ int main(){
     char okunacak[250] = "";
     char yazilacak[250] = "";
 
-    char dosyaYolu[200] = "/Users/batukar/Documents/iste/Bilgisayar Mühendisliği/2023-2024/Bahar/Dersler/Programlama/";
+    char dosyaYolu[200] = "/Users/batukar/Documents/Github/Alg_Uygulamalari/23-24 Spring/week7/";
     char dosyaAdi[] = "dosya.txt";
     char yeniDosyaAdi[] = "yazilacak_dosya.txt";
 

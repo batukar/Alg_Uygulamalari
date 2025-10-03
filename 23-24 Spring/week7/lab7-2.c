@@ -7,7 +7,7 @@ int main(){
     FILE *dosya;
     char karakter = 'B' ;
 
-    char dosyaYolu[200] = "/Users/batukar/Documents/iste/Bilgisayar Mühendisliği/2023-2024/Bahar/Dersler/Programlama/";
+    char dosyaYolu[200] = "/Users/batukar/Documents/Github/Alg_Uygulamalari/23-24 Spring/week7/";
     char dosyaAdi[] = "dosya.txt";
 
     strcat(dosyaYolu, dosyaAdi);
