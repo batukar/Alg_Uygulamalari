@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+
+
+
+
++----------------+--------------------------------------+------------------+----------------+----------------+------------------------+
+| Veri Tipi      | Açıklama                            | Bellek (ortalama)| printf Formatı | scanf Formatı  | Örnek Değer            |
++----------------+--------------------------------------+------------------+----------------+----------------+------------------------+
+| int            | Tam sayı                            | 4 byte           | %d             | %d             | 42                     |
+| float          | Ondalıklı sayı (tek hassasiyet)     | 4 byte           | %f             | %f             | 3.14                   |
+| double         | Ondalıklı sayı (çift hassasiyet)    | 8 byte           | %lf            | %lf            | 3.141592               |
+| char           | Karakter (ASCII)                    | 1 byte           | %c             | %c             | 'A'                    |
+| long int       | Daha büyük tam sayı                 | 8 byte           | %ld            | %ld            | 987654321              |
+| short int      | Küçük tam sayı                      | 2 byte           | %hd            | %hd            | 12                     |
+| unsigned int   | Negatif almayan tam sayı            | 4 byte           | %u             | %u             | 255                    |
+| long double    | Çok hassas ondalıklı sayı           | 16 byte          | %Lf            | %Lf            | 3.141592653589793      |
++----------------+--------------------------------------+------------------+----------------+----------------+------------------------+
