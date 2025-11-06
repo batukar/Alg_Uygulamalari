@@ -1,4 +1,4 @@
-# Alg_Uygulamalari 📘
+# Algorithms and Programming 📘
 
 Bu depo, **Algoritma** dersi kapsamında farklı dönemlerde yapılan uygulama örneklerini içermektedir.  
 Her dönem klasörü, o dönemde işlenen konulara ait kodları, ödevleri ve küçük denemeleri barındırır.
