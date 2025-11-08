@@ -18,6 +18,7 @@ int main(){
             attempt--;
             if (attempt == 0){
                 printf("Bloke edildiniz!\n");
+                break;
             }else{
                 printf("Deneme sansi: %d\n", attempt);
             }
@@ -28,20 +29,20 @@ int main(){
 
                 if (password != inputPassword){
                     printf("Sifre hatali!\n");
-
                     attempt--;
                     if (attempt == 0){
-                    printf("Bloke edildiniz!\n");
+                        printf("Bloke edildiniz!\n");
+                        break;
                     }else{
                         printf("Deneme sansi: %d\n", attempt);
                     }
                 }else{
                     printf("Hos geldin, %li\n", userID);
-                    break;
+                    return 0;
                 }
-            } while (attempt);
+            } while (attempt > 0);
         }
-        break;
     } while (attempt > 0);
-    
+
+    return 0;
 }
